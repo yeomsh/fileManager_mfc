@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FileManager.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="FileManagerDlg.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CMyListCtrl.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CVariableDlg.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="filenameInfo.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CMyFolderDlg.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CPropertyDlg.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CMyHelpDlg.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FileManager.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="FileManagerDlg.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CMyListCtrl.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CVariableDlg.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="filenameInfo.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CMyFolderDlg.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CPropertyDlg.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CMyHelpDlg.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FileManager.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\FileManager.rc2">
+      <Filter>리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\FileManager.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\background.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\강의\2018 - 1\윈도우즈 프로그래밍\과제\팀 프로젝트 - 메인\button\되돌리기.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\강의\2018 - 1\윈도우즈 프로그래밍\과제\팀 프로젝트 - 메인\button\사용자지정.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\강의\2018 - 1\윈도우즈 프로그래밍\과제\팀 프로젝트 - 메인\button\일괄넘버링.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\강의\2018 - 1\윈도우즈 프로그래밍\과제\팀 프로젝트 - 메인\button\자동이름설정.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\강의\2018 - 1\윈도우즈 프로그래밍\과제\팀 프로젝트 - 메인\button\적용.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\강의\2018 - 1\윈도우즈 프로그래밍\과제\팀 프로젝트 - 메인\button\초기화.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\강의\2018 - 1\윈도우즈 프로그래밍\과제\팀 프로젝트 - 메인\button\폴더생성이동.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\logo.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\되돌리기.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\사용자지정.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\일괄넘버링.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\적용.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\초기화.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\폴더생성이동.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\도움말.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
